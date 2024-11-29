@@ -1,0 +1,296 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #00A3A3;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color:#F2F2F2;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 65px;
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.logo{
+    position: relative;
+    right: 4rem;
+    height: 4rem;
+    margin-top: 5px;
+}
+
+h1{
+    margin-right: 250px;
+     
+    margin-top: 20px;
+    position: relative;
+    right: 21rem;
+}
+
+#a1{
+    text-decoration: none;
+    position: relative;
+    right: 90px;
+    font-size: 18px;
+    color: black;
+    
+}
+
+#a2{
+    text-decoration: none;
+    position: relative;
+    right: 55px;
+    font-size: 18px;
+    color: black;
+}
+
+#a3{
+    text-decoration: none;
+    position: relative;
+    right: 20px;
+    font-size: 18px;
+    color: black;
+}
+#a1:hover{
+    background-color: #006666;
+}
+
+#a2:hover{
+    background-color: #006666;
+}
+
+#a3:hover{
+    background-color: #006666;
+}
+
+.link{
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.img{
+    
+   
+   margin-top:10rem ;
+   display: grid;
+  margin-left: 20rem;
+  gap: 40px;
+ 
+   
+   
+}
+
+.sh:hover{
+
+    transform: scale(1.1);
+}
+
+#sh2{
+    width: 12.8rem;
+    height:9.3rem ;
+    
+   
+    
+}
+
+
+#sh5{
+    width: 12.8rem;
+    height: 9.3rem;
+}
+
+.sh{
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+   
+}
+
+.dtl{
+
+    background-color: #ffb6c174;
+    width: 35rem;
+    height: 9.3rem;
+    position: relative;
+    bottom: 44.6rem;
+    left: 40rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+   
+}
+
+h2{
+    font-family: 'Pacifico', cursive;
+    color: #FF1493;
+    margin-left: 10px;
+    
+}
+
+.dtl p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    color: #333;
+    margin-left: 10px;
+    margin-top: 14px;
+
+}
+
+.rs{
+    font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            color: #2E8B57; 
+            font-weight: 700;
+        }
+
+.dtl1{
+    background-color: #ffb6c174;
+    width: 35rem;
+    height: 9.3rem;
+    position: relative;
+    bottom: 42rem;
+    left: 40rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+   
+}     
+
+.dtl2{
+    background-color: #ffb6c174;
+    width: 35rem;
+    height: 9.3rem;
+    position: relative;
+    bottom: 39.6rem;
+    left: 40rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+
+
+}
+
+.dtl3{
+    background-color: #ffb6c174;
+    width: 35rem;
+    height: 9.3rem;
+    position: relative;
+    bottom: 37.2rem;
+    left: 40rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+
+}
+
+.dtl1 p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    color: #333;
+    margin-left: 10px;
+    margin-top: 14px;
+
+}
+.dtl2 p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    color: #333;
+    margin-left: 10px;
+    margin-top: 14px;
+
+}
+.dtl3 p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    color: #333;
+    margin-left: 10px;
+    margin-top: 14px;
+
+}
+.dtl:hover{
+    background-color: #e69bb2;
+}
+
+.dtl1:hover{
+    background-color: #e69bb2;
+}
+
+.dtl2:hover{
+    background-color: #e69bb2;
+}
+
+.dtl3:hover{
+    background-color: #e69bb2;
+}
+
+.ship{
+    background-color: antiquewhite;
+    height: 30rem;
+    width: 44rem;
+    margin-left: 27rem;
+    position: relative;
+    bottom: 25rem;
+    display: grid;
+    padding-left: 20px;
+    border-radius: 10px;
+    
+    
+    
+    
+    
+}
+#del{
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+h3{
+    font-size: 25px;
+    font-family: 'Georgia', serif;
+  color: #3E2723; 
+    position: relative;
+    left: 15rem;
+    bottom: 3.9rem;
+}
+span{
+    color: red;
+    font-size: 35px;
+    transition: transform 0.3s ease, color 0.3s ease ;
+    cursor: pointer;
+}
+
+span:hover{
+    color:yellowgreen;
+    transform: scale(1.1);
+}
+
+.abt{
+    width: 100%;
+    background-color: #333333;
+    color:antiquewhite ;
+    height: 6rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#ph{
+    margin-top: 8px;
+}
+
+#ic{
+    position: relative;
+    left: 45rem;
+    bottom: 1rem;
+    color: antiquewhite;
+}
+           
+
